@@ -15,6 +15,8 @@
 		4160B94727C8D43500FB52E1 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 4160B94627C8D43500FB52E1 /* FirebaseFirestoreCombine-Community */; };
 		4160B94927C8D43500FB52E1 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 4160B94827C8D43500FB52E1 /* FirebaseFirestoreSwift-Beta */; };
 		4160B94B27C8D4F000FB52E1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4160B94A27C8D4F000FB52E1 /* GoogleService-Info.plist */; };
+		4197B8FF27C8F34C006086DA /* Tarea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4197B8FE27C8F34C006086DA /* Tarea.swift */; };
+		4197B90127C8F3B8006086DA /* TareasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4197B90027C8F3B8006086DA /* TareasViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4160B93927C8D01600FB52E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4160B93C27C8D01600FB52E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4160B94A27C8D4F000FB52E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4197B8FE27C8F34C006086DA /* Tarea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarea.swift; sourceTree = "<group>"; };
+		4197B90027C8F3B8006086DA /* TareasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TareasViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 			children = (
 				4160B93527C8D01600FB52E1 /* SwiftUIDemoApp.swift */,
 				4160B93727C8D01600FB52E1 /* ContentView.swift */,
+				4197B90027C8F3B8006086DA /* TareasViewModel.swift */,
+				4197B8FE27C8F34C006086DA /* Tarea.swift */,
 				4160B93927C8D01600FB52E1 /* Assets.xcassets */,
 				4160B93B27C8D01600FB52E1 /* Preview Content */,
 			);
@@ -155,8 +161,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4197B90127C8F3B8006086DA /* TareasViewModel.swift in Sources */,
 				4160B93827C8D01600FB52E1 /* ContentView.swift in Sources */,
 				4160B93627C8D01600FB52E1 /* SwiftUIDemoApp.swift in Sources */,
+				4197B8FF27C8F34C006086DA /* Tarea.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
